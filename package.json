@@ -21,6 +21,7 @@
     "npm": "8.3.1"
   },
   "scripts": {
+    "postinstall": "build",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "size": "size-limit",
     "analyze": "size-limit --why",
